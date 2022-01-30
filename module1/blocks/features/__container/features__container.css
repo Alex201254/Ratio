@@ -1,0 +1,10 @@
+.features__container {
+  max-width: 1120px;
+  margin: 150px auto 0;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .features__container {
+    margin-top: 75px;
+  }
+}

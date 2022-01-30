@@ -1,0 +1,11 @@
+.testimonials__slide {
+  margin: 60px 0 0;
+  width: 55px;
+  height: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .testimonials__slide {
+    margin-left: 10px;
+  }
+}

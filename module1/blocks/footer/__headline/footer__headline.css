@@ -1,0 +1,12 @@
+.footer__headline {
+  display: flex;
+  column-gap: 20px;
+  margin: 0;
+  align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .footer__headline {
+    column-gap: 10px;
+  }
+}

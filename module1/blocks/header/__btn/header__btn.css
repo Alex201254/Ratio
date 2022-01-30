@@ -1,0 +1,26 @@
+.header__btn {
+  margin: 50px 0 0;
+  background-color: #9c69e2;
+  border: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  width: 170px;
+  height: 60px;
+  color: #ffffff;
+  border-radius: 50px;
+  transition: opacity 0.1s linear;
+  opacity: 1;
+}
+
+.header__btn:hover {
+  opacity: 0.6;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .header__btn {
+    margin: 20px auto 0 60px;
+  }
+}

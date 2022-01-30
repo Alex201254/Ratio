@@ -1,0 +1,17 @@
+.header__text {
+  margin: 50px 0 0;
+  max-width: 380px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .header__text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+}

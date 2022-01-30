@@ -1,0 +1,15 @@
+.comments {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 88px 0 0;
+  column-gap: 20px;
+  list-style: none;
+  min-width: 1578px;
+  padding: 0;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .comments {
+    margin-top: 50px;
+  }
+}

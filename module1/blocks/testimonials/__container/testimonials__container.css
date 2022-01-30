@@ -1,0 +1,15 @@
+.testimonials__container {
+  max-width: 1118px;
+  margin: 150px auto 150px;
+  padding: 109px 0 62px 93px;
+  border-radius: 50px;
+  background-color: #9c69e2;
+  position: relative;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .testimonials__container {
+    max-width: 310px;
+    padding: 50px 0 30px 10px;
+  }
+}

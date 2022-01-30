@@ -1,0 +1,9 @@
+.comment__info {
+  margin: 20px 0 0;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .comment__info {
+    margin-top: 0;
+  }
+}

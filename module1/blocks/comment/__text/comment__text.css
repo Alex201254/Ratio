@@ -1,0 +1,16 @@
+.comment__text {
+  margin: 19px 0 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  color: #4b5d68;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .comment__text {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 90%;
+  }
+}

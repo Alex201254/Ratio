@@ -1,0 +1,15 @@
+.arrows {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 58px;
+  right: 76px;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .arrows {
+    bottom: 30px;
+    right: 30px;
+  }
+}

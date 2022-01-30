@@ -1,0 +1,10 @@
+.card__info {
+  max-width: 220px;
+  margin: 49px 50px 33px auto;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .card__info {
+    margin: 20px 35px 10px auto;
+  }
+}

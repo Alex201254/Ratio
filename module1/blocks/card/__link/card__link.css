@@ -1,0 +1,8 @@
+.card__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #212353;
+  cursor: pointer;
+}

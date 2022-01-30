@@ -1,0 +1,17 @@
+.card__links {
+  margin: 20px 0 0;
+  display: flex;
+  column-gap: 20px;
+  transition: opacity 0.1s linear;
+  opacity: 1;
+}
+
+.card__links:hover {
+  opacity: 0.6;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .card__links {
+    margin-top: 0;
+  }
+}

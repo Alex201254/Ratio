@@ -1,0 +1,13 @@
+.comment_position_2 {
+  width: 400px;
+  border: 1px solid #9c69e2;
+  box-shadow: 0px 20px 0px rgba(16, 9, 26, 0.1);
+  padding: 55px 60px 55px 40px;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .comment_position_2 {
+    width: 200px;
+    padding: 20px 25px 20px 15px;
+  }
+}

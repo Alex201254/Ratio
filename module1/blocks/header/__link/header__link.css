@@ -1,0 +1,15 @@
+.header__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5d68;
+  transition: font-weight 0.1s linear;
+  transition: color 0.1s linear;
+}
+
+.header__link:hover {
+  font-weight: 700;
+  color: #212353;
+}

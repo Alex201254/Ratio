@@ -1,0 +1,10 @@
+.comment__text_visible {
+  background: linear-gradient(
+    90deg,
+    rgb(75, 93, 104, 1) 20%,
+    rgb(75, 93, 104, 0) 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

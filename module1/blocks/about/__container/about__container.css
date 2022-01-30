@@ -1,0 +1,14 @@
+.about__container {
+  max-width: 1117px;
+  margin: 99px auto 0;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  display: flex;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .about__container {
+    max-width: 310px;
+    margin-top: 20px;
+  }
+}

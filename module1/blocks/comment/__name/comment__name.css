@@ -1,0 +1,14 @@
+.comment__name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  color: #212353;
+  margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .comment__name {
+    font-size: 15px;
+  }
+}

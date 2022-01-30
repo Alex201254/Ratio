@@ -1,0 +1,13 @@
+.header__img {
+  position: absolute;
+  width: 885px;
+  height: 468px;
+  top: 268px;
+  right: 0;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .header__img {
+    opacity: 0;
+  }
+}

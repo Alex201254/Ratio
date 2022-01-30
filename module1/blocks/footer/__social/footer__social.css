@@ -1,0 +1,10 @@
+.footer__social {
+  max-width: 178px;
+  margin: 50px 0 0;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .footer__social {
+    margin-top: 57px;
+  }
+}

@@ -1,0 +1,15 @@
+.about__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .about__title {
+    font-size: 25px;
+    text-align: center;
+  }
+}

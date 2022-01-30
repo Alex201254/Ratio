@@ -1,0 +1,12 @@
+.icons {
+  display: flex;
+  column-gap: 14px;
+  margin: 30px 0 0;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .icons {
+    column-gap: 7px;
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,13 @@
+.about__img {
+  margin: 32px 0 32px 16px;
+  width: 469px;
+  height: 496px;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .about__img {
+    z-index: -1;
+    opacity: 0;
+    position: absolute;
+  }
+}

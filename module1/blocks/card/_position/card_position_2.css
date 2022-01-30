@@ -1,0 +1,9 @@
+.card_position_2 {
+  border-bottom: 358px solid rgb(156, 105, 226, 0.1);
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .card_position_2 {
+    border-bottom: 258px solid rgb(156, 105, 226, 0.1);
+  }
+}

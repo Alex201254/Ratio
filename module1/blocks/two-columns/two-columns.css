@@ -1,0 +1,15 @@
+.two-columns {
+  margin: 100px 0 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 147px;
+  list-style: none;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .two-columns {
+    margin-top: 50px;
+    gap: 25px 147px;
+  }
+}

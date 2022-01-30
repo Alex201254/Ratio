@@ -1,0 +1,17 @@
+.features__text {
+  max-width: 584px;
+  margin: 50px auto;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .features__text {
+    max-width: 350px;
+    margin-top: 20px;
+  }
+}
