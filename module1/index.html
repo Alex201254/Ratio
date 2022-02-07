@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Молодец что подключил все нужные meta -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Ежели делаешь перенос строки нужен бОльший отступ -->
     <meta
       name="description"
       content="Data Warehouse is a data storage area that has been
-  tested for security, so you can store your data here
-  safely but not be afraid of being stolen by others."
+        tested for security, so you can store your data here
+        safely but not be afraid of being stolen by others."
     />
     <meta
       name="keyword"
@@ -16,6 +18,7 @@
     />
     <link rel="icon" href="./images/Logo.svg" />
     <link rel="stylesheet" href="./pages/index.css" />
+    <!-- Отлично что подключил гугл-шрифты -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,9 +29,12 @@
   </head>
   <body class="root">
     <div class="page">
+      <!-- TODO: Header включает в себя очень большой блок -->
       <header class="header">
         <div class="header__container">
           <div class="header__elements">
+            <!-- TODO: Не корректное именование по БЭМ'у "logo_place_header" -->
+            <!-- Лучше сделать header__logo -->
             <img
               src="./images/Logo.svg"
               alt="Here is a logo"
@@ -42,6 +48,7 @@
           </div>
 
           <div class="header__lead">
+            <!-- Отлично SEO -->
             <h1 class="header__title">Save your data storage here</h1>
             <p class="header__text">
               Data Warehouse is a data storage area that has been tested for
@@ -52,6 +59,8 @@
               ><button class="header__btn">Learn more</button></a
             >
           </div>
+          <!-- TODO: Стоит называть изображения по сущности, вот на изображении девушки и графики, можно так и назвать girlsAndGraphs -->
+          <!-- TODO: Alt тоже следует писать по сущности изображения -->
           <img
             src="./images/image1 1.png"
             alt="Here is an img"
@@ -63,6 +72,7 @@
       <main class="content">
         <section class="about">
           <div class="about__container" id="about">
+            <!-- TODO: Стоит называть изображения по сущности, вот на изображении девушки и графики, можно так и назвать girlsAndGraphs -->
             <img
               src="./images/image2.png"
               alt="Here is an img"
@@ -90,8 +100,16 @@
               Some of the features and advantages that we provide for those of
               you who store data in this Data Warehouse.
             </p>
+            <!-- TODO: Класс называется "две-колонки", например на мобильной версии она будет одна, получается что не совпадает название с реальностью -->
+            <!-- Следует назвать класс что-то вроде cards -->
+            <!-- Использование здесь ul и li, здесь не список, следует использовать в таких случаях div -->
             <ul class="two-columns">
+              <!-- TODO: Название card_position_1  -->
+              <!-- Это не по БЭМ'у, ежели уж и называть так, то card--position-1 -->
+              <!-- Position 1 ничего нам не говорит, непонятно что это за позиция -->
               <li class="card card_position_1">
+                <!-- TODO: Стоит называть изображения по сущности -->
+                <!-- TODO: Alt тоже следует писать по сущности изображения -->
                 <img
                   src="./images/image3 1.png"
                   alt="Here is an image"
@@ -107,6 +125,8 @@
                   <div class="card__links">
                     <a href="#" class="card__link">Learn more </a>
                     <a href="#">
+                      <!-- TODO: Стоит называть изображения по сущности -->
+                      <!-- TODO: Alt тоже следует писать по сущности изображения -->
                       <img src="./images/Group 56.svg" alt="Here is an img" />
                     </a>
                   </div>
@@ -114,6 +134,8 @@
               </li>
 
               <li class="card card_position_2">
+                <!-- TODO: Стоит называть изображения по сущности -->
+                <!-- TODO: Alt тоже следует писать по сущности изображения -->
                 <img
                   src="./images/image4.png"
                   alt="Here is an image"
@@ -136,6 +158,8 @@
               </li>
 
               <li class="card card_position_3">
+                <!-- TODO: Стоит называть изображения по сущности -->
+                <!-- TODO: Alt тоже следует писать по сущности изображения -->
                 <img
                   src="./images/image5 1.png"
                   alt="Here is an image"
@@ -149,6 +173,8 @@
                   </p>
                   <div class="card__links">
                     <a href="#" class="card__link"> Learn more </a>
+                    <!-- TODO: Стоит называть изображения по сущности -->
+                    <!-- TODO: Alt тоже следует писать по сущности изображения -->
                     <a href="#">
                       <img src="./images/Group 56.svg" alt="Here is an img" />
                     </a>
@@ -157,6 +183,8 @@
               </li>
 
               <li class="card card_position_1">
+                <!-- TODO: Стоит называть изображения по сущности -->
+                <!-- TODO: Alt тоже следует писать по сущности изображения -->
                 <img
                   src="./images/image6 1.png"
                   alt="Here is an image"
@@ -171,6 +199,8 @@
                   </p>
                   <div class="card__links">
                     <a href="#" class="card__link">Learn more </a>
+                    <!-- TODO: Стоит называть изображения по сущности -->
+                    <!-- TODO: Alt тоже следует писать по сущности изображения -->
                     <a href="#">
                       <img src="./images/Group 56.svg" alt="Here is an img" />
                     </a>
@@ -184,8 +214,10 @@
         <section class="testimonials">
           <div class="testimonials__container">
             <h2 class="testimonials__title">Testimonials</h2>
+            <!-- Использование здесь ul и li, здесь не список, следует использовать в таких случаях div -->
             <ul class="comments">
               <li class="comment comment_position_1">
+                <!-- TODO: Стоит называть изображения по сущности (например avatar.png) -->
                 <img
                   src="./images/Ellipse 76.png"
                   alt="Here is an avatar"
@@ -202,6 +234,7 @@
                 </div>
               </li>
               <li class="comment comment_position_2">
+                <!-- TODO: Стоит называть изображения по сущности (например avatar.png) -->
                 <img
                   src="./images/Ellipse 76 (1).png"
                   alt="Here is an avatar"
@@ -210,6 +243,7 @@
                 <div class="comment__info">
                   <p class="comment__name">Jeny Doe</p>
                   <p class="comment__status">UX Engineer</p>
+                  <!-- TODO: Модификатор сделан не по БЭМ'У должно быть comment__text--visible, ежели ты хочешь добавить какое-то особый класс, нужно добавлять его через "--название" -->
                   <p class="comment__text comment__text_visible">
                     Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
                     viverra enim erat tortor
@@ -217,6 +251,7 @@
                 </div>
               </li>
               <li class="comment comment_position_2">
+                <!-- TODO: Стоит называть изображения по сущности (например avatar.png) -->
                 <img
                   src="./images/Ellipse 76 (2).png"
                   alt="Here is an avatar"
@@ -225,6 +260,7 @@
                 <div class="comment__info">
                   <p class="comment__name">William</p>
                   <p class="comment__status">Web Designer</p>
+                  <!-- TODO: Модификатор сделан не по БЭМ'У должно быть comment__text--visible, ежели ты хочешь добавить какое-то особый класс, нужно добавлять его через "--название" -->
                   <p class="comment__text comment__text_visible">
                     Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
                     viverra enim erat tortor
@@ -238,7 +274,11 @@
               class="testimonials__slide"
             />
             <div class="arrows">
+              <!-- TODO: Стоит называть изображения по сущности (например arrow-left(right).svg) -->
+              <!-- Класс не по БЭМ'у следует использовать модификатор как нужно сделать arrows__arrow arrows__arrow--left -->
               <img src="./images/Group 57.svg" class="arrows__arrow-1" />
+              <!-- TODO: Стоит называть изображения по сущности (например arrow-left(right).svg) -->
+              <!-- Класс не по БЭМ'у следует использовать модификатор как нужно сделать arrows__arrow arrows__arrow--left -->
               <img src="./images/Group 57.svg" class="arrows__arrow-2" />
             </div>
           </div>
@@ -268,16 +308,19 @@
           <div class="footer__social">
             <p class="footer__media">Social Media</p>
             <div class="icons">
+              <!-- TODO: Следует называть ALT по сущности тут например alt="instagram"  -->
               <img
                 src="./images/instagram.png"
                 alt="Here is an icon"
                 class="icon"
               />
+              <!-- TODO: Следует называть ALT по сущности тут например alt="twitter"  -->
               <img
                 src="./images/twitter.png"
                 alt="Here is an icon"
                 class="icon"
               />
+              <!-- TODO: Следует называть ALT по сущности тут например alt="facebook"  -->
               <img
                 src="./images/facebook.png"
                 alt="Here is an icon"
