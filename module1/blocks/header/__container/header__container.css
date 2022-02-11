@@ -1,8 +1,8 @@
 .header__container {
   max-width: 1248px;
-  min-height: 742px;
   margin: 62px auto 0;
-  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 @media (min-width: 320px) and (max-width: 500px) {

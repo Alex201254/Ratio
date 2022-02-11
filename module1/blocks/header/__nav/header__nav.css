@@ -1,7 +1,7 @@
 .header__nav {
   display: flex;
   column-gap: 40px;
-  margin: 0 0 0 170px;
+  margin: 0 0 0 121px;
 }
 
 @media (min-width: 320px) and (max-width: 500px) {

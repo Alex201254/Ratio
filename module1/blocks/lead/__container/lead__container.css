@@ -1,0 +1,12 @@
+.lead__container {
+  max-width: 1248px;
+  min-height: 564px;
+  margin: 145px auto 0;
+  position: relative;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .lead__container {
+    margin-top: 70px;
+  }
+}

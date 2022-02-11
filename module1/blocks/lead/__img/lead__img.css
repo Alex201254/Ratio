@@ -1,13 +1,14 @@
-.header__img {
+.lead__img {
   position: absolute;
   width: 885px;
   height: 468px;
-  top: 268px;
+  bottom: 0;
   right: 0;
+  z-index: -1;
 }
 
 @media (min-width: 320px) and (max-width: 500px) {
-  .header__img {
+  .lead__img {
     opacity: 0;
   }
 }

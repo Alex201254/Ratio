@@ -1,8 +1,9 @@
 .footer__container {
   max-width: 1085px;
-  margin: 123px auto 65px;
+  margin: 163px auto 65px;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 @media (min-width: 320px) and (max-width: 500px) {
