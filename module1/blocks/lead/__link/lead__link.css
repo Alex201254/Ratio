@@ -1,12 +1,26 @@
 .lead__link {
-  width: 170px;
-  height: 60px;
-  margin: 0;
-  padding: 0;
+  display: inline-block;
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 160%;
   color: #ffffff;
+  margin: 50px 0 0;
+  padding: 16px 37px;
+  background-color: #9c69e2;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: opacity 0.1s linear;
+  opacity: 1;
+}
+
+.lead__link:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 600px) {
+  .lead__link {
+    margin-top: 20px;
+  }
 }
