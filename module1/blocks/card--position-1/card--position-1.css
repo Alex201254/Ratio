@@ -2,8 +2,8 @@
   border-bottom: 358px solid rgb(104, 201, 186, 0.1);
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media screen and (max-width: 750px) {
   .card--position-1 {
-    border-bottom: 258px solid rgb(104, 201, 186, 0.1);
+    border-bottom: 280px solid rgb(104, 201, 186, 0.1);
   }
 }

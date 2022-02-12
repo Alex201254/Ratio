@@ -7,9 +7,8 @@
   color: #212353;
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .footer__adress {
-    margin-top: 35px;
-    font-size: 13px;
+    margin-top: 25px;
   }
 }

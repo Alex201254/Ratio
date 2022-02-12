@@ -7,8 +7,16 @@
   z-index: -1;
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
+  .lead__img {
+    width: 700px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .lead__img {
     opacity: 0;
+    visibility: hidden;
   }
 }

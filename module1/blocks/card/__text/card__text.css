@@ -7,3 +7,9 @@
   line-height: 160%;
   color: #4b5d68;
 }
+
+@media screen and (max-width: 750px) {
+  .card__text {
+    min-height: 120px;
+  }
+}

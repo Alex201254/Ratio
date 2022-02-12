@@ -3,12 +3,13 @@
   margin: 62px auto 0;
   display: flex;
   align-items: center;
+  column-gap: 121px;
+  padding-left: 30px;
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .header__container {
-    max-width: 280px;
-    margin: 30px auto 0;
-    min-height: 400px;
+    margin-top: 40px;
+    column-gap: 60px;
   }
 }

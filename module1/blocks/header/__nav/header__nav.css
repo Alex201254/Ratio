@@ -1,12 +1,11 @@
 .header__nav {
   display: flex;
   column-gap: 40px;
-  margin: 0 0 0 121px;
+  margin: 0;
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .header__nav {
-    column-gap: 15px;
-    margin-left: 100px;
+    column-gap: 20px;
   }
 }

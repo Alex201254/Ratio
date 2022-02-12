@@ -7,9 +7,14 @@
   color: #212353;
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .lead__title {
-    font-size: 30px;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lead__title {
+    font-size: 50px;
   }
 }

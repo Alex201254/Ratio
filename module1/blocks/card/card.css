@@ -6,3 +6,21 @@
   border-radius: 0 0 50px 50px;
   border-left: 50px solid transparent;
 }
+
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .card {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 310px;
+  }
+}

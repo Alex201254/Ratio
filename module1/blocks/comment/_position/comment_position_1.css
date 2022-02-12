@@ -4,9 +4,14 @@
   padding: 60px 70px 50px;
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
+  .comment_position_1 {
+    padding: 40px 30px 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
   .comment_position_1 {
     width: 300px;
-    padding: 20px 30px 15px;
   }
 }

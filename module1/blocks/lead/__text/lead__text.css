@@ -8,10 +8,8 @@
   color: #4b5d68;
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .lead__text {
-    margin-top: 20px;
     text-align: center;
-    font-size: 15px;
   }
 }

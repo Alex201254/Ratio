@@ -2,12 +2,21 @@
   margin: 32px 0 32px 16px;
   width: 469px;
   height: 496px;
+  z-index: -1;
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .about__img {
-    z-index: -1;
+    margin: 20px 0 25px 0;
+    width: 350px;
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .about__img {
     opacity: 0;
+    visibility: hidden;
     position: absolute;
   }
 }

@@ -10,8 +10,15 @@
   opacity: 0.6;
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
   .card__links {
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .card__links {
+    align-self: flex-end;
+    margin-top: 20px;
   }
 }
